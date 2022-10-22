@@ -2,7 +2,7 @@ import React from 'react'
 import './Announcements.css'
 import Carousel from 'react-bootstrap/Carousel';
 import a1 from '../assets_images/a1.png';
-
+import Fade from 'react-reveal/Fade';
 import a from '../assets_images/a.png';
 
 export default function Announcements() {
@@ -12,6 +12,7 @@ export default function Announcements() {
     <div className='card1' >
       <h3 className='head'>Latest Announcements</h3>
       <div className='conta'>
+      <Fade left>
         <div className='aimg' style={{ width: 5, height: 5 }}><img src={a} /></div>
         <Carousel className='ca'>
 
@@ -65,6 +66,7 @@ export default function Announcements() {
           </Carousel.Item>
 
         </Carousel>
+        </Fade>
       </div>
     </div>
 
