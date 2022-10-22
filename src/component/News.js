@@ -3,65 +3,77 @@ import './News.css'
 import ListGroup from 'react-bootstrap/ListGroup';
 import paper from '../assets_images/paper.png';
 import Card from 'react-bootstrap/Card';
-
+import Fade from 'react-reveal/Fade';
 
 export default function news() {
   return (
-    <div>
-      <div className='card2' >
-        <h3 className='head'>News</h3>
-        <div className='conta'>
-          <Card className='text' border="primary" style={{ width: '25rem' }}>
+    <React.Fragment>
+      <div>
+        <div className='card2' >
+          <h3 className='head'>News</h3>
+          <div className='conta'>
+            <Fade right>
+              <Card className='text' border="primary" style={{ width: '25rem' }}>
 
-            <Card.Body>
-              <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
-              <Card.Text>
-                GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <br />
-          <Card className='text' border="primary" style={{ width: '25rem' }}>
+                <Card.Body>
+                  <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
+                  <Card.Text>
+                    GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Fade>
+              <br />
 
-            <Card.Body>
-              <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
-              <Card.Text>
-                GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <br />
-          <Card className='text' border="primary" style={{ width: '25rem' }}>
+               <Fade right>
+              <Card className='text' border="primary" style={{ width: '25rem' }}>
 
-            <Card.Body>
-              <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
-              <Card.Text>
-                GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <br />
+                <Card.Body>
+                  <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
+                  <Card.Text>
+                    GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Fade>
+              <br />
+              <Fade right>
+              <Card className='text' border="primary" style={{ width: '25rem' }}>
 
-          <Card className='text' border="primary" style={{ width: '25rem' }}>
+                <Card.Body>
+                  <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
+                  <Card.Text>
+                    GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Fade>
+              <br />
 
-            <Card.Body>
-              <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
-              <Card.Text>
-                GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <br />
+              <Fade right>
+              <Card className='text' border="primary" style={{ width: '25rem' }}>
 
-          <Card className='text' border="primary" style={{ width: '25rem' }}>
+                <Card.Body>
+                  <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
+                  <Card.Text>
+                    GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Fade>
+              <br />
 
-            <Card.Body>
-              <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
-              <Card.Text>
-                GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
-              </Card.Text>
-            </Card.Body>
-          </Card>
+              <Fade right>
+              <Card className='text' border="primary" style={{ width: '25rem' }}>
+
+                <Card.Body>
+                  <Card.Title><Card.Img variant="" src={paper} style={{ width: 40, height: 40 }} />News Title</Card.Title>
+                  <Card.Text>
+                    GIDM launches 5 hours self-paced, online / e-course, on the Basics of Disaster Risk Management (DRM) | GIDM GIDM launches 5 hours self-paced, online / e-course, on the Basics
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </Fade>
           <br />
 
 
@@ -77,5 +89,6 @@ export default function news() {
         </div>
       </div>
     </div>
+    </React.Fragment >
   )
 }
