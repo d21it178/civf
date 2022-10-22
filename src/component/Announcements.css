@@ -1,0 +1,137 @@
+
+
+
+.card1 {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    left: 47px;
+    top: 230px;
+    text-align: center;
+    background:  #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+.card1 .conta {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+.card1 .conta .ca .cat {
+    position:  relative ;
+    padding-left: 10px;
+    left: 10px;
+    text-align: start;
+    /* font-family: 'Open Sans'; */
+    color: #0065B3;
+}
+
+
+.card1 .aimg {
+    position: relative;
+    /* width: 10px;
+height: 10px; */
+    left: 0px;
+    top: 20px;
+
+}
+
+.card1 .ca {
+    position:relative;
+    padding: 80px;
+    /* top: 1px; */
+    bottom: 70px;
+}
+
+
+
+
+
+
+
+
+.card1 .ca .catb1 {
+    padding: auto;
+    position: relative;
+    width: 186px;
+    height: 16px;
+    /* text-align: justify; */
+    left: 15px;
+
+    top: 5px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #0065B3;
+}
+
+.card1 .head {
+    position: absolute;
+    width: 630px;
+    height: 82px;
+    left: 25px;
+    top: -80px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 50px;
+    line-height: 82px;
+    text-align: center;
+    color: #0065B3;
+}
+
+.card1 .ca .catb2 {
+    /* position: absolute; */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+   text-align: start;
+
+
+    color: #0065B3;
+}
+
+.card1 .ca .cat2{
+    position: relative;
+    width: 356px;
+    height: 140px;
+ 
+    text-align: justify;
+    
+   
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #001D34;
+}
+
+.card1 .ca .cat3{
+    position: relative;
+    width: 356px;
+    height: 150px;
+    
+    text-align: justify;
+    
+   
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #001D34;
+}

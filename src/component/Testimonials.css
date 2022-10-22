@@ -1,0 +1,86 @@
+.test0{
+    position: relative;
+    width: 1300px;
+    height: 606px;
+    left: 15px;
+    top: -470px;
+}
+
+
+.text {
+    position: relative;
+    left: 50px;
+    top: 250px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 50px;
+    line-height: 82px;
+    text-align: center;
+    color: #0065B3;
+}
+
+
+.t1 {
+    position: relative;
+    width: 1103px;
+    height: 500px;
+    left: 100px;
+    top: 290px;
+
+    background: #F3861E;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transform: rotate(-3.41deg);
+}
+
+.t {
+    position: relative;
+    width: 1103px;
+    height: 500px;
+    left: 100px;
+    bottom: 210px;
+
+    background: #fdfdfd;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.t .Vector1 {
+    position: relative;
+    left: 8.09%;
+    right: 8.33%;
+    top: -5.79%;
+    bottom: 5.83%;
+}
+
+.t .Vector2 {
+    position: relative;
+    left: 78.33%;
+    right: 8.09%;
+    top: 93.83%;
+    bottom: 1.79%;
+}
+
+.test {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    left: 590px;
+
+    top: -640px;
+
+}
+
+.test .text1 {
+    position: absolute;
+    width: 1138px;
+    height: 38px;
+    left: 151px;
+    top: 365px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 28px;
+    color: blue;
+}

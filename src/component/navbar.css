@@ -1,0 +1,28 @@
+
+
+.nav{
+    color: #f4f7fa;
+}
+
+
+/* 
+.nav .fixed-top {
+    position: -webkit-sticky;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .3s ease-in;
+    overflow: hidden;
+    background: rgb(247, 244, 244);
+     */
+
+    
+/* } */
+
+/* .fixed-top :hover{
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
+    background: rgb(254, 255, 255);
+} */

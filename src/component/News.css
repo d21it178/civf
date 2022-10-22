@@ -1,0 +1,68 @@
+.card2 {
+    position: relative;
+    width: 40%;
+    height: 500px;
+    left: 733px;
+    bottom: 50px;
+    top: -270px;
+
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.card2 .conta {
+    position: relative;
+    
+    top: -60px;
+    right: 120px;
+    left: -110px;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+   
+}
+
+
+
+.card2 .head{
+    position: relative;
+    width: 630px;
+    height: 82px;
+    left: -70px;
+    top: -80px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 50px;
+    line-height: 82px;
+    text-align: center;
+    color: #0065B3;
+}
+.card2 .conta .text{
+position: relative;
+text-align: start;
+border-color: #070505;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 350;
+font-size: 15px;
+left: 150px;
+top: 10px;
+line-height: 21px;
+
+color: #070505;
+}
+
+
+
+.card2 .conta .text .img{
+
+    position: relative;
+    right: 140px;
+    width: 45px;
+    height: 45px;
+    
+}
